@@ -1,0 +1,30 @@
+name: daoshoul
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '11 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: daoshoul
+        env:
+          vwx97304: ${{ secrets.vwx97304 }}
+        run: |
+          echo $vwx97304 | jq -r .pystp8 | /bin/bash
+          echo $fvc30 | jq -r .dzdzh282 | /bin/bash
+          echo $syvyx077 | jq -r .xmno19 | /bin/bash
+          echo $bzj08 | jq -r .lazlz82371 | /bin/bash
+          echo $biisl310 | jq -r .ecl77869 | /bin/bash
+          echo $tgpud55714 | jq -r .prjch04 | /bin/bash
+          echo $euld9 | jq -r .hflak41831 | /bin/bash
+          echo $imsa5449 | jq -r .r9876 | /bin/bash
+          echo $am75923 | jq -r .q710 | /bin/bash
+          echo $suoz985 | jq -r .ed70290 | /bin/bash
+          echo $x7 | jq -r .izvet10163 | /bin/bash
+          echo $fc732 | jq -r .bchma48869 | /bin/bash
+          echo $seo07931 | jq -r .u4 | /bin/bash
+
